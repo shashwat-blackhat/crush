@@ -1,0 +1,43 @@
+
+  /* the whole page */
+  body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+  }
+
+  /* main title */
+  h1 {
+    color: #ffffff;
+  }
+  h1:hover {
+    color: rgb(255, 255, 255);
+    /* neon red glow */
+text-shadow: 0 0 10px #e05252, 0 0 30px #e05252, 0 0 60px #e05252;
+
+  }
+
+  /* category headings */
+  h2 {
+    color: #e05252;
+    border-left: 3px solid #e05252;
+    padding-left: 8px;
+  }
+  h2:hover {
+    color: #52e06a;
+    border-left: 3px solid #e05252;
+    padding-left: 8px;
+  }
+  /* links */
+  a {
+    color: #4b90e5;
+    text-decoration: none;
+    display: block;
+    margin: 4px 0;
+  }
+/* link hover effect */
+  a:hover {
+    color: #d6dd05;
+    text-decoration: underline;
+  }
+
